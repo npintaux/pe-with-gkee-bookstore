@@ -1,7 +1,0 @@
-kind: ConfigMap
-apiVersion: v1
-metadata:
-  name: bookstore-config
-data:
-  bookstore.property.1: hello
-  bookstore.property.2: world
