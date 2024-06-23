@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: store
   annotations:
-    configmanagement.gke.io/namespace-selector: development-selector
+    configmanagement.gke.io/namespace-selector: store-selector
 spec:
   selector:
     app: store
