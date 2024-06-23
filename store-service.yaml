@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: store
   annotations:
-    configmanagement.gke.io/namespace-selector: application-namespace-selector
+    configmanagement.gke.io/namespace-selector: development-selector
 spec:
   selector:
     app: store
@@ -16,4 +16,4 @@ apiVersion: net.gke.io/v1
 metadata:
   name: store
   annotations:
-    configmanagement.gke.io/namespace-selector: application-namespace-selector
+    configmanagement.gke.io/namespace-selector: development-selector
