@@ -8,8 +8,3 @@ spec:
   ports:
   - port: 8080
     targetPort: 8080
----
-kind: ServiceExport
-apiVersion: net.gke.io/v1
-metadata:
-  name: store
