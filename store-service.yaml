@@ -13,5 +13,3 @@ kind: ServiceExport
 apiVersion: net.gke.io/v1
 metadata:
   name: store
-  annotations:
-    configmanagement.gke.io/namespace-selector: development-selector
