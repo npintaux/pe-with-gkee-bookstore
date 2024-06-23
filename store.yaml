@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: store
   annotations:
-    configmanagement.gke.io/namespace-selector: development-selector
+    configmanagement.gke.io/namespace-selector: store-selector
 spec:
   replicas: 2
   selector:
